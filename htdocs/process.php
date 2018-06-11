@@ -1,7 +1,10 @@
 <?php
 
+/*
+//used only for testing purposes
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+*/
 
 // include class
 include("numberstowords.php");

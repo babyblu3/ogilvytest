@@ -12,11 +12,15 @@ class NumbersToWords {
 
     //converts the dollars portion of the mumber into words
     private function convert_dollars($number) {
-        //save original int number
-        $number_int = (int)$number;
 
-        //extract the whole numbers only (ie. excluding the cents) and convert to a string
-        $number = (string)((int)$number_int);
+        //check if argument is set to avoid error
+        if(isset($number)) {
+             //save original int number
+            $number_int = (int)$number;
+
+            //extract the whole numbers only (ie. excluding the cents) and convert to a string
+            $number = (string)((int)$number_int);        
+        }
 
         //check if number is a number
         if(ctype_digit($number)) {
