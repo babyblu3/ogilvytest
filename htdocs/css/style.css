@@ -1,0 +1,32 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333333;
+}
+
+main.container {
+    padding-top: 36px;
+}
+
+.bg-main {
+    background: url(../images/menu_gray_bg.png);
+    background-color: transparent;
+    height: 65px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.navbar-brand img {
+    height: 65px;
+}
+
+div#form-results.container {
+    margin-top: 36px;
+}
+
+#result_payeename {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+p#currency-format-numeric {
+    margin-bottom: 0px;
+}

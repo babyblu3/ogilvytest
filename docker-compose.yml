@@ -1,0 +1,16 @@
+version: '2'
+
+services:  
+  drupal:      
+    image: albert.tan/centos69
+    build: 
+      context: ./Dockerfile
+      dockerfile: centos69.Dockerfile       
+    container_name: ogilvy
+    ports: 
+      - "80:80"
+    volumes:
+      # information on bind-mounts tuning to optimise speed
+      # https://github.com/docker/for-mac/issues/77
+      # https://docs.docker.com/docker-for-mac/osxfs-caching    
+      - ./htdocs:/var/www/html:delegated

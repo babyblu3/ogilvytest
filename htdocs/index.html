@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Software Developer Technical Exercise</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-main mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="https://www.ogilvy.com.au/sites/all/themes/whitesite/images/logo-brand-large.png" alt="Ogilvy" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>                    
+                </ul>
+                <ul class="navbar-nav ml-auto">                    
+                    <li class="nav-item">
+                        <a href="Ogilvy-PHP Technical Task.pdf" target="_blank" class="nav-link">Brief</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div id="form-input" class="container">
+        <h1>Technical exercise</h1>
+        <p class="lead">As a bank customer, a web page is needed that will allow users to enter the payee name and monetary value in dollars and cents and convert that to cheque format.</p>
+
+        <form id="the-form">
+            <div class="form-group">
+              <label for="payeename">Payee name:</label>
+              <input type="text" class="form-control" id="payeename" name="payeename" pattern="^[a-zA-Z\-'\s]+$" title="Payee name should only contain letters and spaces, no symbols" required>
+            </div>
+            <div class="form-group">
+              <label for="amount">Amount:</label>
+              <input type="number" class="form-control" name="amount" id="amount" min="0" max="100000000000000" step=".01" required>
+            </div>            
+            <button id="submit" type="button" class="btn btn-primary" onclick="showChequeFormat();">Submit</button>
+          </form>        
+
+      </div>
+
+      <div id="form-results" class="container">
+      </div>
+
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.min.js"</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
