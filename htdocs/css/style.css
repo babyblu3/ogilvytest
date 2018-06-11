@@ -34,3 +34,20 @@ div#form-results.container {
 p#currency-format-numeric {
     margin-bottom: 0px;
 }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait)    
+ { 
+    .navbar-collapse {
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+}
+
+
