@@ -26,7 +26,7 @@ https://stackoverflow.com/questions/18634106/manually-trigger-html5-validation-o
 * Payee name allows letters, spaces, and additional characters such as hyphen (-) and single quote (') only as its common in people names any other symbols are excluded
 * Form validation is triggered manually in order to call an AJAX Javascript HTTP POST request to the PHP file (process.php) to do the currency format conversion
 
-During my local development / testing i used docker container, by creating a localised centos image with PHP for my local development environment. Once the project files has been downloaded and assumed docker is already installed, simply run the following command in the root directory of the project folder to have the environment up and running:
+During my local development / testing i used **Docker** container, by creating a localised centos image with PHP for my local development environment. Once the project files has been downloaded and assumed docker is already installed, simply run the following command in the root directory of the project folder to have the environment up and running:
 ```
 $ docker-compose up
 ```
