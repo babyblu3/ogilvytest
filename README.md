@@ -30,3 +30,5 @@ During my local development / testing i used docker container, by creating a loc
 ```
 $ docker-compose up
 ```
+
+The **wwwroot folder** or web root folder is located in **htdocs** folder in the project folder
