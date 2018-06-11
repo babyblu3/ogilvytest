@@ -21,6 +21,9 @@ http://mathforum.org/library/drmath/view/57113.html
 * For completeness on cheque format the amount in grammically correct english, it finishes with 'only', no dollar or cent amount displayed if zero amount
 * The result of the number conversion done by PHP is returned back as a JSON format
 
+There are some alternative ways to writing numbers into words as referenced below, but i followed the example in your brief:
+https://www.thebalance.com/write-numbers-using-words-4083198
+
 The **Bootscrap 4 / JQuery / HTML5** based validation was triggered manually in order to process the fetch a **JSON** requests and return the results on the same page without refreshing
 https://stackoverflow.com/questions/18634106/manually-trigger-html5-validation-on-button-click
 * Payee name allows letters, spaces, and additional characters such as hyphen (-) and single quote (') only as its common in people names any other symbols are excluded
