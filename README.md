@@ -35,3 +35,25 @@ $ docker-compose up
 ```
 
 The **wwwroot folder** or web root folder is located in **htdocs** folder in the project folder
+
+## References
+
+* Regular Expressions Cheatsheet
+https://gist.github.com/vitorbritto/9ff58ef998100b8f19a0
+* Number-to-Word Conversion with PHP
+https://pageconfig.com/post/number-to-word-conversion-with-php
+* How can I implode an array while skipping empty array items?
+https://stackoverflow.com/questions/5985401/how-can-i-implode-an-array-while-skipping-empty-array-items
+* AJAX - Send a Request To a Server
+https://www.w3schools.com/js/js_ajax_http_send.asp
+* HTML DOM removeChild() Method
+https://www.w3schools.com/jsref/met_node_removechild.asp
+* Send POST data using XMLHttpRequest
+https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
+* Manually trigger html5 validation on button click
+https://stackoverflow.com/questions/18634106/manually-trigger-html5-validation-on-button-click
+* How to send a JSON object using html form data [closed]
+https://stackoverflow.com/questions/22195065/how-to-send-a-json-object-using-html-form-data
+* AJAX PHP Example
+https://www.w3schools.com/js/js_ajax_php.asp
+
